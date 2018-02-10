@@ -16,6 +16,10 @@ app.post('/upload', upload.single('file'), function (req, res, next) {
   const id = uuidv4();
   const key = new Buffer(id).toString('base64');
   const originalpath = `temp/${id}/${req.file.originalname}`;
+  
+  if ( ! fs.existsSync('locked')) {
+    fs.mkdirSync('locked');
+  }
 
   fs.mkdirSync(`locked/${id}`);
   fs.writeFileSync(`locked/${id}/license.key`, key);

@@ -48,11 +48,11 @@ node app.js
 
 ### request:
 
-`POST /upload?request=http://example.com/` 주소에 request 쿼리 값으로 URL 을 전송하면,
+`POST /upload?redirect=http://example.com/` 주소에 redirect 쿼리 값으로 URL 을 전송하면,
 파일 업로드가 완료된 후 해당 주소로 redirect 됩니다.
 
 ```html
-<form method="POST" action="/upload?request=http://example.com/" enctype='multipart/form-data'>
+<form method="POST" action="/upload?redirect=http://example.com/" enctype='multipart/form-data'>
     <input type="file" name="file">
     <input type="submit" value="업로드">
 </form>

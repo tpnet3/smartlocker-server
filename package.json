@@ -1,0 +1,28 @@
+{
+  "name": "smartlocker-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "mv": "^2.1.1",
+    "node-zip": "^1.1.1",
+    "uuid": "^3.2.1",
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpnet3/smartlocker-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpnet3/smartlocker-server/issues"
+  },
+  "homepage": "https://github.com/tpnet3/smartlocker-server#readme"
+}

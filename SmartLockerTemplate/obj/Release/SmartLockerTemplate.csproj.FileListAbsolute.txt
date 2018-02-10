@@ -1,0 +1,9 @@
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\bin\Release\SmartLockerTemplate.exe.config
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\bin\Release\SmartLockerTemplate.exe
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\bin\Release\SmartLockerTemplate.pdb
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\obj\Release\SmartLockerTemplate.csprojResolveAssemblyReference.cache
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\obj\Release\SmartLockerTemplate.LoginForm.resources
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\obj\Release\SmartLockerTemplate.csproj.GenerateResource.Cache
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\obj\Release\SmartLockerTemplate.csproj.CoreCompileInputs.cache
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\obj\Release\SmartLockerTemplate.exe
+C:\Users\tpnet3\source\repos\SmartLocker\SmartLockerTemplate\obj\Release\SmartLockerTemplate.pdb

@@ -16,7 +16,7 @@ app.post('/upload', upload.single('file'), function (req, res, next) {
   const id = uuidv4();
   const key = new Buffer(id).toString('base64');
   const originalpath = `temp/${id}/${req.file.originalname}`;
-  
+
   if ( ! fs.existsSync('locked')) {
     fs.mkdirSync('locked');
   }
@@ -31,7 +31,7 @@ app.post('/upload', upload.single('file'), function (req, res, next) {
       const result = {
         id: id,
         filename: req.file.originalname,
-        zip: `/download.zip`,
+        zip: `/download/${id}/download.zip`,
         exe: `/download/${id}/${req.file.originalname}`,
         key: `/download/${id}/license.key`
       };

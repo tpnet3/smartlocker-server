@@ -32,13 +32,13 @@ node app.js
 
 `exe` 는 암호화된 exe 파일을 다운로드 받는 경로입니다.
 
-`key` 는 프로그램 실행을 위한 라이선스 파일입니다. 
+`key` 는 프로그램 실행을 위한 라이선스 파일입니다.
 
 ```
 {
     "id": "08326e48-0e0d-4b8a-89d3-6f59e499b453",
     "filename": "HelloWorld.exe",
-    "zip": "/download.zip",
+    "zip": "/download/08326e48-0e0d-4b8a-89d3-6f59e499b453/download.zip",
     "exe": "/download/08326e48-0e0d-4b8a-89d3-6f59e499b453/HelloWorld.exe",
     "key": "/download/08326e48-0e0d-4b8a-89d3-6f59e499b453/license.key"
 }
@@ -49,7 +49,7 @@ node app.js
 ### request:
 
 `POST /upload?request=http://example.com/` 주소에 request 쿼리 값으로 URL 을 전송하면,
-파일 업로드가 완료된 후 해당 주소로 redirect 됩니다. 
+파일 업로드가 완료된 후 해당 주소로 redirect 됩니다.
 
 ```html
 <form method="POST" action="/upload?request=http://example.com/" enctype='multipart/form-data'>
@@ -66,7 +66,7 @@ redirect 된 주소의 query string 으로 다음과 같이 정보가 전달됩�
 http://example.com/
     ?id=08326e48-0e0d-4b8a-89d3-6f59e499b453
     &filename=HelloWorld.exe
-    &zip=/download.zip
+    &zip=/download/08326e48-0e0d-4b8a-89d3-6f59e499b453/download.zip
     &exe=/download/08326e48-0e0d-4b8a-89d3-6f59e499b453/HelloWorld.exe
     &key=/download/08326e48-0e0d-4b8a-89d3-6f59e499b453/license.key
 ```
